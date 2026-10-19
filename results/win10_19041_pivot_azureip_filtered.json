@@ -1,0 +1,43 @@
+
+[
+  {
+    "DstPID": 1944,
+    "DstProcess": "WindowsAzureGu",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume4\\\\WindowsAzure\\\\GuestAgent_2.7.41491.1149_2025-03-05_175256\\\\GuestInformationServiceClient.dll', '\\\\Device\\\\HarddiskVolume4\\\\WindowsAzure\\\\GuestAgent_2.7.41491.1149_2025-03-05_175256\\\\Microsoft.WindowsAzure.GuestAgent.Core.IaaS.dll', '\\\\Device\\\\HarddiskVolume4\\\\WindowsAzure\\\\GuestAgent_2.7.41491.1149_2025-03-05_175256\\\\Microsoft.WindowsAzure.GuestAgent.Core.dll']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1908,
+    "SrcProcess": "WaAppAgent.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "WindowsAzureGu",
+    "Evidence": "shared Mutant/Section object(s): ['Cor_SxSPublic_IPCBlock', 'DBWinMutex', 'NLS_CodePage_1252_3_2_0_0']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "WaAppAgent.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "WindowsAzureGu",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "WaAppAgent.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "WindowsAzureGu",
+    "Evidence": "shared remote endpoint(s): 168.63.129.16:80, 168.63.129.16:32526",
+    "MultiTypePair": true,
+    "Predicate": "NetworkShare",
+    "SrcPID": 1908,
+    "SrcProcess": "WaAppAgent.exe",
+    "__children": []
+  }
+]

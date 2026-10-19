@@ -1,0 +1,6263 @@
+
+[
+  {
+    "DstPID": 256,
+    "DstProcess": "smss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 256,
+    "DstProcess": "smss.exe",
+    "Evidence": "ppid match (System -> smss.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 328,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 376,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 384,
+    "DstProcess": "wininit.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 412,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 472,
+    "DstProcess": "services.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 4,
+    "SrcProcess": "System",
+    "__children": []
+  },
+  {
+    "DstPID": 484,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1176,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 220,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 328,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 376,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 384,
+    "DstProcess": "wininit.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 412,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 472,
+    "DstProcess": "services.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 952,
+    "DstProcess": "audiodg.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 256,
+    "SrcProcess": "smss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 376,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 384,
+    "DstProcess": "wininit.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 412,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 472,
+    "DstProcess": "services.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 328,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 384,
+    "DstProcess": "wininit.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 412,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 472,
+    "DstProcess": "services.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "ppid match (csrss.exe -> conhost.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 376,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 412,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 472,
+    "DstProcess": "services.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 472,
+    "DstProcess": "services.exe",
+    "Evidence": "ppid match (wininit.exe -> services.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "ppid match (wininit.exe -> lsass.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "ppid match (wininit.exe -> lsm.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 384,
+    "SrcProcess": "wininit.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 220,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 472,
+    "DstProcess": "services.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 484,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 804,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1176,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 412,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 220,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 480,
+    "DstProcess": "lsass.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 484,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "ppid match (services.exe -> VBoxService.ex)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 708,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 804,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "ppid match (services.exe -> SearchIndexer.)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "ppid match (services.exe -> spoolsv.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1176,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1276,
+    "DstProcess": "svchost.exe",
+    "Evidence": "ppid match (services.exe -> svchost.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "ppid match (services.exe -> taskhost.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "ppid match (services.exe -> taskhost.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 472,
+    "SrcProcess": "services.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 488,
+    "DstProcess": "lsm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 480,
+    "SrcProcess": "lsass.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1176,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\NamedPipe\\\\wkssvc']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\NamedPipe\\\\wkssvc', '\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 484,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 580,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 488,
+    "SrcProcess": "lsm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 640,
+    "DstProcess": "VBoxService.ex",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\00000043']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "ppid match (svchost.exe -> dllhost.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\00000043']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 580,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\VBoxGuest']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\VBoxGuest']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2384,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\VBoxGuest']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 640,
+    "SrcProcess": "VBoxService.ex",
+    "__children": []
+  },
+  {
+    "DstPID": 220,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 484,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\0000004b\\\\emicintopo', '\\\\Device\\\\0000004b\\\\espeakertopo']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 840,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 952,
+    "DstProcess": "audiodg.exe",
+    "Evidence": "ppid match (svchost.exe -> audiodg.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1176,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'mmGlobalPnpInfo']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'mmGlobalPnpInfo']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 804,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 220,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 484,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 484,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 864,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1176,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "ppid match (svchost.exe -> dwm.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "ppid match (svchost.exe -> dwm.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 840,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 484,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1132,
+    "DstProcess": "spoolsv.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "ppid match (svchost.exe -> taskeng.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\NamedPipe\\\\srvsvc', '\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\NamedPipe\\\\srvsvc', '\\\\Device\\\\WMIDataDevice']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 864,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 952,
+    "SrcProcess": "audiodg.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 952,
+    "SrcProcess": "audiodg.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "ppid match (SearchIndexer. -> SearchFilterHo)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared Mutant/Section object(s): ['UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-410795266-795571449-2132107757-10001', 'UsGthrFltPipeMssGthrPipe_S-1-5-21-410795266-795571449-2132107757-10001_1']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "ppid match (SearchIndexer. -> SearchProtocol)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{40FC8D7D-05ED-4FEB-B03B-6C100659EF5C}.2.ver0x0000000000000001.db']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1068,
+    "SrcProcess": "SearchIndexer.",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1176,
+    "DstProcess": "svchost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1132,
+    "SrcProcess": "spoolsv.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1804,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1176,
+    "SrcProcess": "svchost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2384,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\VBoxGuest']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2384,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared Mutant/Section object(s): ['VBoxTray']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1592,
+    "SrcProcess": "VBoxTray.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1688,
+    "SrcProcess": "SearchFilterHo",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1696,
+    "SrcProcess": "SearchProtocol",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1824,
+    "DstProcess": "taskeng.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'AccessibilitySoundAgentRunning', 'CicLoadWinStaWinSta0']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1804,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1908,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1824,
+    "SrcProcess": "taskeng.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1944,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1908,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{40FC8D7D-05ED-4FEB-B03B-6C100659EF5C}.2.ver0x0000000000000001.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1068,
+    "DstProcess": "SearchIndexer.",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\VBoxGuest']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1592,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "ppid match (explorer.exe -> VBoxTray.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared Mutant/Section object(s): ['C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db', 'C:*ProgramData*Microsoft*Windows*Caches*{DDF571F2-BE98-426D-8288-1A9A39C3FDA2}.2.ver0x0000000000000002.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1688,
+    "DstProcess": "SearchFilterHo",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 1696,
+    "DstProcess": "SearchProtocol",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2076,
+    "DstProcess": "dllhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2384,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\VBoxGuest']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Users\\\\eminem\\\\Desktop\\\\DumpIt']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "ppid match (explorer.exe -> DumpIt.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\00000043', '\\\\Device\\\\HarddiskVolume2\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu', '\\\\Device\\\\HarddiskVolume2\\\\Users\\\\Public\\\\Desktop']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ALTTAB_RUNNING_MUTEX', 'ASqmManifestVersion', 'C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 1944,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2272,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion', 'C:*ProgramData*Microsoft*Windows*Caches*cversions.2.ro', 'C:*ProgramData*Microsoft*Windows*Caches*{6AF0698E-D558-4F6E-9B3C-3716689AF493}.2.ver0x000000000000000a.db']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 2076,
+    "SrcProcess": "dllhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Program Files (x86)\\\\Google\\\\Update\\\\1.3.34.11']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 2272,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2284,
+    "DstProcess": "GoogleCrashHan",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2272,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 2272,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": true,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2272,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2272,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2272,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2272,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2624,
+    "DstProcess": "DumpIt.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2284,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2284,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2284,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2284,
+    "SrcProcess": "GoogleCrashHan",
+    "__children": []
+  },
+  {
+    "DstPID": 2636,
+    "DstProcess": "conhost.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2624,
+    "SrcProcess": "DumpIt.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2624,
+    "SrcProcess": "DumpIt.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2624,
+    "SrcProcess": "DumpIt.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2700,
+    "DstProcess": "csrss.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2636,
+    "SrcProcess": "conhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2636,
+    "SrcProcess": "conhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 2636,
+    "SrcProcess": "conhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": false,
+    "Predicate": "FileShare",
+    "SrcPID": 2636,
+    "SrcProcess": "conhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2728,
+    "DstProcess": "winlogon.exe",
+    "Evidence": "shared privileged SID(s): ['S-1-5-18', 'S-1-5-32-544']",
+    "MultiTypePair": false,
+    "Predicate": "IdentityMatch",
+    "SrcPID": 2700,
+    "SrcProcess": "csrss.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 2728,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2976,
+    "DstProcess": "taskhost.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 2728,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 2728,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\NamedPipe\\\\wkssvc']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 2728,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 2728,
+    "SrcProcess": "winlogon.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 2976,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3000,
+    "DstProcess": "dwm.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 2976,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared open file handle(s): ['\\\\Device\\\\HarddiskVolume2\\\\Windows\\\\Fonts\\\\StaticCache.dat']",
+    "MultiTypePair": true,
+    "Predicate": "FileShare",
+    "SrcPID": 2976,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 2976,
+    "SrcProcess": "taskhost.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 3000,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 3012,
+    "DstProcess": "explorer.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": false,
+    "Predicate": "HandleShare",
+    "SrcPID": 3000,
+    "SrcProcess": "dwm.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2384,
+    "DstProcess": "VBoxTray.exe",
+    "Evidence": "ppid match (explorer.exe -> VBoxTray.exe)",
+    "MultiTypePair": false,
+    "Predicate": "Spawn",
+    "SrcPID": 3012,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "shared Mutant/Section object(s): ['ASqmManifestVersion']",
+    "MultiTypePair": true,
+    "Predicate": "HandleShare",
+    "SrcPID": 3012,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  },
+  {
+    "DstPID": 2432,
+    "DstProcess": "StikyNot.exe",
+    "Evidence": "ppid match (explorer.exe -> StikyNot.exe)",
+    "MultiTypePair": true,
+    "Predicate": "Spawn",
+    "SrcPID": 3012,
+    "SrcProcess": "explorer.exe",
+    "__children": []
+  }
+]
