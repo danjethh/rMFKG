@@ -88,6 +88,25 @@ Predicate, **Severity**, DstPID/Process, MultiTypePair, Evidence), sorted by Sev
 first. `MultiTypePair=true` marks a process pair linked by two or more predicate types
 simultaneously — the paper's "compound attack behavior" signal, worth triaging first.
 
+## Demonstration sample
+
+A memory sample demonstrating rMFKG's capabilities: the official Volatility 3 test-corpus
+Windows 10 19041 x64 image, published by the Volatility Foundation itself (not redistributed
+by this repository — fetched directly from the Foundation's own release so there's never a
+stale or tampered copy in play):
+
+    curl -LO https://github.com/volatilityfoundation/volatility3-test-data/releases/download/v0.0.1/win-10_19041-2025_03.dmp.gz
+    sha256sum win-10_19041-2025_03.dmp.gz   # expect b377ecd13bf40c90f59a8c41ffc8bc81166462627a7800ec82a67a73520c7f9d
+    gunzip win-10_19041-2025_03.dmp.gz
+    vol -p ./plugin -f win-10_19041-2025_03.dmp windows.rmfkg.Rmfkg
+
+This is the `win10_19041` row in the results table above (5,038 rows; see `results/SUMMARY.md`
+for full per-image detail). The two real-malware ground-truth images (CyberDefenders
+BlackEnergy, RedLine) are **not** part of this submission's distributed sample set — they're
+third-party content under CyberDefenders' own terms of use, which prohibit unauthorized
+redistribution. They were used for validation only (see Testing below and `results/SUMMARY.md`);
+obtain them directly from CyberDefenders if you want to reproduce that part of the evaluation.
+
 ## Testing
 
 Read-only; never modifies the source image; no synthetic/custom test images used —
